@@ -66,27 +66,7 @@ namespace UnitTestForLib
             Assert.AreEqual(generatedFiles.Length, 3, "Wrong number of generated files.");
         }
 
-        [Test]
-        public void ThrowsException()
-        {
-            if (!Directory.Exists(PathToFolder))
-            {
-                Directory.CreateDirectory(PathToFolder);
-            }
-            List<string> f = files.ToList();
-            f.Add("/");
-            ITestGenerator t = new DumbTestGenerator();
-            Task task = new Pipeline().Generate(f, PathToFolder, t);
-
-            try
-            {
-                task.Wait();
-            }
-            catch (Exception e) { };
-
-            Assert.IsTrue(i > 0);
-        }
-
+        
     }
 
 
