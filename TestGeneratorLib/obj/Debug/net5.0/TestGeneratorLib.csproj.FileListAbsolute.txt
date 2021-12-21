@@ -1,0 +1,12 @@
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\bin\Debug\net5.0\TestGeneratorLib.deps.json
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\bin\Debug\net5.0\TestGeneratorLib.dll
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\bin\Debug\net5.0\ref\TestGeneratorLib.dll
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\bin\Debug\net5.0\TestGeneratorLib.pdb
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\obj\Debug\net5.0\TestGeneratorLib.csproj.AssemblyReference.cache
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\obj\Debug\net5.0\TestGeneratorLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\obj\Debug\net5.0\TestGeneratorLib.AssemblyInfoInputs.cache
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\obj\Debug\net5.0\TestGeneratorLib.AssemblyInfo.cs
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\obj\Debug\net5.0\TestGeneratorLib.csproj.CoreCompileInputs.cache
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\obj\Debug\net5.0\TestGeneratorLib.dll
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\obj\Debug\net5.0\ref\TestGeneratorLib.dll
+D:\BSUIR\TEMPORAL_SHIT\lab4\TestGeneratorLib\obj\Debug\net5.0\TestGeneratorLib.pdb
