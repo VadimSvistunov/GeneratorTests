@@ -16,11 +16,7 @@ namespace TestGeneratorLib
         {
             CompilationUnitSyntax root = CSharpSyntaxTree.ParseText(code).GetCompilationUnitRoot();
             var classes = new List<ClassInfo>();
-            foreach (ClassDeclarationSyntax classDeclaration in root.DescendantNodes().OfType<ClassDeclarationSyntax>())
-            {
-                classes.Add(GetClassInfo(classDeclaration));
-            }
-
+           
             return new FileInfo(classes);
         }
 
