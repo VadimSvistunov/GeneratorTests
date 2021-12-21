@@ -42,7 +42,15 @@ namespace MainPart
             );
             var writeFileBlock = new ActionBlock<KeyValuePair<string, string>>
             (
-                
+                async fileNameCodePair =>
+                {
+                    Console.WriteLine("Writing...");
+                    using (var writer = new StreamWriter(pathToGenerated + '\\' + fileNameCodePair.Key + ".cs"))
+                    {
+                        await writer.WriteAsync(fileNameCodePair.Value);
+                    }
+                },
+                execOptions
             );
             downloadStringBlock.LinkTo(generateTestsBlock, linkOptions);
             generateTestsBlock.LinkTo(writeFileBlock, linkOptions);
